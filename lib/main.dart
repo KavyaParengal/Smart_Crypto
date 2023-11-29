@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:smart_crypto/routes/routeNames/route_names.dart';
-import 'package:smart_crypto/routes/routeNames/route_navigations.dart';
+import 'package:smart_crypto/routes/routeNavigate/route_navigations.dart';
 
 void main() {
   runApp(

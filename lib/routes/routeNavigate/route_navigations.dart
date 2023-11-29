@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
 import 'package:smart_crypto/routes/routeNames/route_names.dart';
+import 'package:smart_crypto/screens/home_page.dart';
 import 'package:smart_crypto/screens/login_page.dart';
 import 'package:smart_crypto/screens/signup_page.dart';
 import 'package:smart_crypto/screens/splash_screen.dart';
@@ -21,6 +22,9 @@ class RouteNavigation{
 
       case RouteName.signup:
         return MaterialPageRoute(builder: (context)=>const SignUpPage());
+
+      case RouteName.home:
+        return MaterialPageRoute(builder: (context)=>const HomePage());
 
       default:
         return MaterialPageRoute(builder: (context)=>Scaffold(

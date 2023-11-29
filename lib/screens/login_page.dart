@@ -61,7 +61,7 @@ class _LoginPageState extends State<LoginPage> {
                     padding: EdgeInsets.symmetric(horizontal: 40),
                     child: TextButton(
                       onPressed: (){
-                          //Navigator.pushNamed(context, RouteName.login);
+                          Navigator.pushNamed(context, RouteName.home);
                       },
                       style: TextButton.styleFrom(
                         shape: RoundedRectangleBorder(
